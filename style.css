@@ -27,37 +27,37 @@ body {
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
 .header a {
-    color: #28352f;
+  color: #28352f;
 }
 
 section {
-    padding: 56px 24px 120px 24px;
+  padding: 56px 24px 120px 24px;
 }
 
 .landing-page {
-    background-image: url('images/illustration.png');
-    background-repeat: no-repeat;
-    background-size: 100%;
-   width: 100%;
-   height: auto;
+  background-image: url('images/illustration.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: auto;
 }
 
 h1 {
-    text-align: center;
-    font-size: 40px;
-    line-height: 52px;
-    font-weight: 700;
+  text-align: center;
+  font-size: 40px;
+  line-height: 52px;
+  font-weight: 700;
 }
 
 span.tint {
@@ -65,7 +65,7 @@ span.tint {
 }
 
 .lp-text {
-    margin: 26px 0 50px 0;
-    min-width: 327px;
-    text-align: center;
+  margin: 26px 0 50px 0;
+  min-width: 327px;
+  text-align: center;
 }
