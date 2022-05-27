@@ -30,11 +30,17 @@ Give a ⭐️ if you like this project!
 
 
 ## Acknowledgments
-
-- Hat tip to anyone who's code/resource was used
-- Inspiration
 - Microverse Community
-
 ## 📝 License
+
+
+## To get a local copy up and running follow these simple steps.
+
+Clone the project by using terminal.
+https://github.com/Eternalgratis/Portfolio.git
+
+cd Portfolio
+
+
 
 This project is [MIT](./MIT.md) licensed.
