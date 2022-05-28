@@ -107,7 +107,7 @@ div.Projects {
   border: 1px solid #d0d9d4;
   border-radius: 8px;
   background-color: #ebf0ee;
-  width:327px;
+  width: 327px;
   height: 474px;
 }
 
@@ -208,7 +208,6 @@ div.tech-sk ul {
   gap: 8px;
   margin: 0 28px;
   width: 327px;
-
 }
 
 div.tech-sk {
@@ -240,6 +239,7 @@ div.tech-sk img {
 div.skills-list {
   margin-top: 32px;
 }
+
 div.skills-list li {
   border: none;
   border-radius: 8px;
@@ -261,4 +261,8 @@ h4 {
   line-height: 2rem;
   font-weight: 600;
   font-size: 1.5rem;
+}
+
+#contacts-section {
+  display: none;
 }
