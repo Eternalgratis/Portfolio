@@ -69,3 +69,37 @@ span.tint {
   min-width: 327px;
   text-align: center;
 }
+
+.arrow {
+  display: flex;
+  justify-items: center;
+}
+
+.header2 {
+  display: flex;
+  justify-content: center;
+}
+
+.projects {
+  background-color: red;
+  display: grid;
+  height: 200px;
+  width: 310px;
+  top: 150px;
+  padding: 10px;
+}
+
+.About-Me {
+  display: grid;
+  justify-content: center;
+  width: 400px;
+  align-content: space-around;
+  align-items: center;
+}
+
+.About-Me p {
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  
+}
