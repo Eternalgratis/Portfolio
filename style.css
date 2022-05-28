@@ -54,6 +54,7 @@ h1 {
   font-size: 40px;
   line-height: 52px;
   font-weight: 700;
+  width: 100%;
 }
 
 span.tint {
@@ -61,8 +62,8 @@ span.tint {
 }
 
 .lp-text {
-  margin: 26px 0 50px 0;
-  min-width: 327px;
+  margin: 26px auto 50px auto;
+  width: 100%;
   text-align: center;
 }
 
