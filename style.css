@@ -42,7 +42,7 @@ ul {
 }
 
 .landing-page {
-  background-image: url('./images/illustration.png');
+  background-image: url("./images/illustration.png");
   background-repeat: no-repeat;
   background-size: 100%;
   width: 100%;
@@ -93,7 +93,8 @@ a.arrow {
 
 #works-section {
   display: grid;
-  padding-bottom: 0;
+  /* padding-bottom: 0; */
+  height: 0%;
 }
 
 section {
@@ -101,7 +102,7 @@ section {
   width: 100%;
 }
 
-div.Projects {
+div.Projects-container {
   margin: 0 auto 24px auto;
   position: relative;
   text-align: center;
@@ -112,7 +113,7 @@ div.Projects {
   height: 474px;
 }
 
-.Proj-text {
+.Proj-text1 {
   position: relative;
   width: 100%;
   top: 229px;
@@ -121,7 +122,7 @@ div.Projects {
   border-radius: 8px;
   background-color: #fff;
   padding-top: 16px;
-  height: 242px;
+  height: 100%;
 }
 
 .pro-btn {
@@ -173,13 +174,16 @@ section.about-me {
   display: flex;
   flex-direction: column;
   position: relative;
-  background-image: url('./images/illustration-aboutme.svg');
+  background-image:
+    url("./images/illustration-aboutme.svg"),
+    url("./images/illustration-2-aboutme.svg");
   background-repeat: no-repeat;
   background-size: auto;
   background-position: top right;
-  padding: 58px 0 58px 0;
+  padding: 64px 0 64px 0;
   margin: 10px;
   width: 100%;
+  height: 100%;
 }
 
 section.about-me p {
