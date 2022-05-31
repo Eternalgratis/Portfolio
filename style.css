@@ -41,12 +41,8 @@ ul {
   color: #28352f;
 }
 
-section {
-  padding: 56px 24px 120px 24px;
-}
-
 .landing-page {
-  background-image: url('./images/illustration.png');
+  background-image: url("./images/illustration.png");
   background-repeat: no-repeat;
   background-size: 100%;
   width: 100%;
@@ -58,6 +54,7 @@ h1 {
   font-size: 40px;
   line-height: 52px;
   font-weight: 700;
+  width: 100%;
 }
 
 span.tint {
@@ -65,7 +62,232 @@ span.tint {
 }
 
 .lp-text {
-  margin: 26px 0 50px 0;
+  margin: 26px auto 50px auto;
+  width: 100%;
+  text-align: center;
+}
+
+a.arrow {
+  border: 1px solid #dfe1e6;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  padding: 14px 17px;
+  margin-top: 40px;
+}
+
+.header2 {
+  margin: 0 0 0;
   min-width: 327px;
   text-align: center;
+}
+
+.separator {
+  height: 4px;
+  width: 48px;
+  background-color: #36b37e;
+  border: none;
+  border-radius: 24px;
+  margin: 24px auto;
+}
+
+#works-section {
+  display: grid;
+}
+
+section {
+  padding: 120px 24px;
+  width: 100%;
+}
+
+div.Projects-container {
+  margin: 0 auto 24px auto;
+  position: relative;
+  text-align: center;
+  border: 1px solid #d0d9d4;
+  border-radius: 8px;
+  background-color: #ebf0ee;
+  width: 327px;
+  height: 474px;
+}
+
+.Projects {
+  position: relative;
+  width: 100%;
+  top: 100px;
+  text-align: center;
+  border: 1px solid #d0d9d4;
+  border-radius: 8px;
+  background-color: #fff;
+  padding-top: 20px;
+  height: 100%;
+}
+
+.empty-div {
+  width: 100%;
+  height: 300px;
+  background-color: #ebf0ee;
+  margin: 20px;
+}
+
+.pro-btn {
+  border: none;
+  border-radius: 4px;
+  padding: 12px;
+  font-size: 17px;
+  font-weight: 500;
+  background-color: #36b37f;
+  color: #fff;
+  margin-bottom: 24px;
+}
+
+#about-text {
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+img.bg-img {
+  position: absolute;
+  bottom: -10px;
+  top: 20%;
+  left: -24px;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 150%;
+  color: #3a4a42;
+}
+
+ul.pro-tech {
+  margin: 1rem 0.25rem;
+  gap: 8px;
+}
+
+.pro-tech li {
+  color: #3a4a42;
+  background-color: #e5e5e5;
+  padding: 0.5rem 10px;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1rem;
+}
+
+section.about-me {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-size: auto;
+  padding: 65px 0 65px 0;
+  margin: 10px;
+  width: 100%;
+}
+
+#about-text .bg-img1 {
+  background-image: url("./images/about.png");
+  position: absolute;
+  left: 290px;
+  top: -10px;
+  background-repeat: no-repeat;
+  margin-right: 20px;
+  width: 100px;
+  height: 100px;
+}
+
+#about-text .bg-img2 {
+  background-image: url("./images/about2.png");
+  background-repeat: no-repeat;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  right: 290px;
+  bottom: 1100px;
+}
+
+section.about-me p {
+  color: #42526e;
+  line-height: 2rem;
+  max-width: 327px;
+  margin: 24px auto;
+}
+
+.header-text {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+  margin-top: 24px;
+}
+
+.skills-list {
+  display: flex;
+  flex-direction: column;
+}
+
+div.tech-sk ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 28px;
+  width: 327px;
+}
+
+div.tech-sk {
+  margin: 24px auto 0 auto;
+  position: relative;
+  text-align: center;
+  border: 1px solid #d0d9d4;
+  border-radius: 8px;
+  background-color: #ebf0ee;
+  width: 327px;
+  height: 352px;
+}
+
+div.lg,
+div.frm,
+div.sk {
+  background-color: #fff;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  margin: 40px auto 64px auto;
+  text-align: center;
+}
+
+div.tech-sk img {
+  margin-top: 19px;
+}
+
+div.skills-list {
+  margin-top: 32px;
+}
+
+div.skills-list li {
+  border: none;
+  border-radius: 8px;
+  color: #36b37e;
+  background-color: #fff;
+  padding: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1rem;
+}
+
+div.skills-list ul {
+  margin: 1rem 0.25rem;
+  gap: 8px;
+}
+
+h4 {
+  color: #344563;
+  line-height: 2rem;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+#contacts-section {
+  display: none;
 }

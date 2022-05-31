@@ -14,7 +14,7 @@
 
 - GitHub: [@eternalgratis](https://github.com/Eternalgratis)
 - Twitter: [@eternalgratis](https://twitter.com/eternalgratis)
-- Instagram: [@eternalgratis](https://www.instagram.com/eternalgratis/)
+- LinkedIn: [@eternalgratis](https://www.linkedin.com/in/titilope-apuabi-69a98719b/)
 
 
  
