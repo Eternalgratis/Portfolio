@@ -8,18 +8,34 @@
     <title>Eternalgratis</title>
 </head>
 <body>
+    <div class="pairing">
+        <ul>
+            <li>html</li>
+            <li>css</li>
+            <li>JavaScript</li>
+        </ul>
+    </div>
+    
+    <div class="navbar">
+        <ul>
+            <li>Portfolio</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </div>
     <header>
     <div class="header">
         <a href="index.html">Welcome</a>
-        <img src="images/menu.png" alt="">
+        <img id="bar" src="images/menu.png" alt="">
     </div> 
     </header>
     <section class="landing-page">
+        <div class="lp-img"></div>
         <div class="lp-container">
             <h1>Hey there. I'm Titilope. <br>
             <span class="tint">I'm a software developer.</span>
             </h1>  
-            <p class="lp-text text"> I can help you build a product, feature or website Look through 
+            <p class="lp-text"> I can help you build a product, feature or website Look through 
                 some of my work and experience! If you like what you see and have a project you need coded, 
                 don't hestiate to contact me.
             </p>
@@ -41,7 +57,7 @@
             <h3 class="header-text">My Recent Works</h3>
             <div class="separator"></div>
         </div>
-    
+    <div class="proj-container">
         <div class="Projects">
             <div class="empty-div"></div>
                 <div class="Proj-text1">
@@ -137,6 +153,7 @@
                 <a class="pro-btn" href="#works-section">See Project</a>
             </div>
         </div>
+    </div>
     </section>
     
         <section class="about-me">
@@ -191,14 +208,25 @@
                 </div>
             </div>
             </section>
+
+            <div class="pairing">
+                <ul>
+                    <li>html</li>
+                    <li>css</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
             
-            <section id="contacts-section">
+        <!-- <section id="contact-section">
+            <form action="">
                 <p>I'm always interested in hearing about new projects, 
                 so if you'd like to chat please get in touch.</p>
-                <input type="text" name="name" placeholder="Full name">
-                <input type="text" name="name" placeholder="Email address">
-                <input type="text" name="name" placeholder="Enter text here">
-                <button type="submit">Get in touch</button>    
+                <form action="">
+                    <input id="cnt-name" type="text" name="name" placeholder="Full name">
+                    <input id="cnt-email" type="text" name="name" placeholder="Email address">
+                    <textarea name="text" id="cnt-text" placeholder="Enter text here" cols="30" rows="10"></textarea>
+                    <button type="submit">Get in touch</button>
+                </form>  
                 <ul>
                     <li><a href=""><img src="images/twitter.svg" alt="my twitter profil"></a></li>
                         <li><a href=""><img src="images/linked.svg" alt="connect on linkedin"></a></li>
@@ -206,7 +234,8 @@
                         <li><a href=""><img src="images/github.svg" alt="github profile"></a></li>
                         <li><a href=""><img src="images/angel.svg" alt="angel list"></a></li>
                 </ul>
-                <a href="#"><h5>tyaps002@gmail.com</h5></a>
-            </section>
+                <a id="last-email" href="#"><h5>tyaps002@gmail.com</h5></a>
+            </form>
+        </section> -->
 </body>
 </html>
