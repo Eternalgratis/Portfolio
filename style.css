@@ -291,3 +291,85 @@ h4 {
 #contacts-section {
   display: none;
 }
+
+.form p {
+  color: #172B4D;
+  width: 327px;
+  height: 363px;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: center;
+  font-family: inter;
+  font-style: bold;
+  padding: 20px;
+  margin: auto;
+}
+
+#name {
+  color: #6B778C;
+  font-size: 15px;
+  line-height: 24px;
+  width: 295px;
+  height: 48px;
+  text-align: left;
+  border: 1px solid #D0D9D4;
+  border-radius: 4px;
+}
+
+#email {
+  color: #6B778C;
+  font-size: 15px;
+  line-height: 24px;
+  width: 295px;
+  height: 48px;
+  text-align: left;
+  border: 1px solid #D0D9D4;
+  border-radius: 4px;
+}
+
+#message {
+  font-weight: 900;
+  line-height: 24px;
+  width: 303px;
+  height: 114px;
+  text-align: left;
+  border: 1px solid #D0D9D4;
+  border-radius: 4px;
+}
+
+.inputs {
+  display: grid;
+  margin: auto; 
+  width: 327px;
+  height: 330px;
+  text-align: center;
+}
+
+.submit {
+  height: 48px;;
+  width: 129px;
+  border-radius: 4px;
+  background-color: #36B37F;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  border: 1px solid #36B37F;
+  justify-content: center;
+}
+
+#form-email a {
+  width: 375px;
+  height: 189px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #42526E;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  justify-content: center;
+}
+
+#form-media {
+  margin-top: 20px;
+}
