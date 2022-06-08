@@ -358,6 +358,10 @@ h4 {
   justify-content: center;
 }
 
+.b-form {
+  background-image: url("./images/illustration-contact-form.svg");
+}
+
 #form-email a {
   width: 375px;
   height: 189px;
@@ -373,3 +377,4 @@ h4 {
 #form-media {
   margin-top: 20px;
 }
+
