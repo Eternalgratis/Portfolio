@@ -220,7 +220,14 @@ section.about-me {
   margin: auto;
 }
 
-section.about-me p {
+.form-survey p {
+  font-size: 40px;
+  font-family: "inter", sans-serif;
+  font-weight: 700;
+  margin-bottom: 80px;
+}
+
+section .about-me p {
   color: #42526e;
   line-height: 2rem;
   max-width: 327px;
@@ -315,6 +322,7 @@ h4 {
   text-align: left;
   border: 1px solid #d0d9d4;
   border-radius: 4px;
+  padding: 10px;
 }
 
 #email {
@@ -326,6 +334,7 @@ h4 {
   text-align: left;
   border: 1px solid #d0d9d4;
   border-radius: 4px;
+  padding: 10px;
 }
 
 #message {
@@ -336,6 +345,7 @@ h4 {
   text-align: left;
   border: 1px solid #d0d9d4;
   border-radius: 4px;
+  padding: 10px;
 }
 
 .inputs {
@@ -365,7 +375,6 @@ h4 {
 
 #form-email a {
   width: 375px;
-  height: 189px;
   font-weight: 400;
   line-height: 32px;
   color: #42526e;
@@ -373,6 +382,7 @@ h4 {
   align-items: center;
   margin: auto;
   justify-content: center;
+  margin-top: 10px;
 }
 
 #form-media {
