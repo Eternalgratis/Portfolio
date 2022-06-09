@@ -46,7 +46,6 @@ ul {
   background-image: url("./images/illustration.png");
   background-repeat: no-repeat;
   background-size: 100%;
-  width: 100%;
   height: auto;
 }
 
@@ -55,7 +54,6 @@ h1 {
   font-size: 40px;
   line-height: 52px;
   font-weight: 700;
-  width: 100%;
 }
 
 span.tint {
@@ -98,10 +96,9 @@ a.arrow {
 
 section {
   padding: 120px 24px;
-  width: 100%;
 }
 
-div.Projects-container {
+.Projects-container {
   margin: 0 auto 24px auto;
   position: relative;
   text-align: center;
@@ -120,7 +117,6 @@ div.Projects-container {
   border: 1px solid #d0d9d4;
   border-radius: 8px;
   background-color: #fff;
-  padding-top: 20px;
   padding-bottom: 30px;
   margin-bottom: 30px;
 }
@@ -128,7 +124,6 @@ div.Projects-container {
 .empty-div {
   height: 300px;
   background-color: #ebf0ee;
-  margin: 20px;
 }
 
 .pro-btn {
@@ -139,13 +134,12 @@ div.Projects-container {
   font-weight: 500;
   background-color: #36b37f;
   color: #fff;
-  margin-bottom: 24px;
+  margin-top: -100px;
 }
 
 #about-text {
   position: relative;
   text-align: center;
-  width: 100%;
 }
 
 img.bg-img {
@@ -176,61 +170,46 @@ ul.pro-tech {
   line-height: 1rem;
 }
 
-section.about-me {
+.about-me {
   display: flex;
   flex-direction: column;
   position: relative;
   background-size: auto;
-  padding: 65px 0 65px 0;
+  padding: 0 0 65px 0;
   margin: 10px;
-  width: 100%;
 }
 
 #about-text .bg-img1 {
   background-image: url("./images/about.png");
   position: absolute;
-  left: 290px;
+  left: 300px;
   top: -10px;
   background-repeat: no-repeat;
-  margin-right: 20px;
-  width: 100px;
-  height: 100px;
+  width: 63px;
+  height: 110px;
 }
 
 #about-text .bg-img2 {
   background-image: url("./images/about2.png");
   background-repeat: no-repeat;
-  height: 100px;
-  width: 100px;
+  height: 84px;
+  width: 73px;
   position: absolute;
   right: 290px;
-  bottom: 1100px;
+  bottom: 1051px;
 }
 
-.form p {
-  color: #172b4d;
-  width: 327px;
-  height: 363px;
-  font-weight: 700;
-  line-height: 52px;
+.contact-section p {
   text-align: center;
-  font-family: 'Inter', sans-serif;
-  font-style: bold;
-  padding: 20px;
-  margin: auto;
-}
-
-.form-survey p {
-  font-size: 40px;
-  font-family: "inter", sans-serif;
+  color: #172b4d;
   font-weight: 700;
-  margin-bottom: 80px;
+  font-size: 40px;
+  line-height: 52px;
 }
 
-section .about-me p {
+.about-me p {
   color: #42526e;
   line-height: 2rem;
-  max-width: 327px;
   margin: 24px auto;
 }
 
@@ -243,33 +222,31 @@ section .about-me p {
 }
 
 .skills-list {
+  margin-top: 32px;
+  gap: 24px;
   display: flex;
   flex-direction: column;
 }
 
-div.tech-sk ul {
+.tech-sk ul {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 8px;
   margin: 0 28px;
-  width: 327px;
 }
 
-div.tech-sk {
-  margin: 24px auto 0 auto;
+.tech-sk {
   position: relative;
   text-align: center;
   border: 1px solid #d0d9d4;
   border-radius: 8px;
   background-color: #ebf0ee;
-  width: 327px;
-  height: 352px;
 }
 
-div.lg,
-div.frm,
-div.sk {
+.lg,
+.frm,
+.sk {
   background-color: #fff;
   height: 80px;
   width: 80px;
@@ -278,15 +255,11 @@ div.sk {
   text-align: center;
 }
 
-div.tech-sk img {
+.tech-sk img {
   margin-top: 19px;
 }
 
-div.skills-list {
-  margin-top: 32px;
-}
-
-div.skills-list li {
+.skills-list li {
   border: none;
   border-radius: 8px;
   color: #36b37e;
@@ -297,7 +270,7 @@ div.skills-list li {
   line-height: 1rem;
 }
 
-div.skills-list ul {
+.skills-list ul {
   margin: 1rem 0.25rem;
   gap: 8px;
 }
@@ -309,82 +282,116 @@ h4 {
   font-size: 1.5rem;
 }
 
-#contacts-section {
-  display: none;
-}
-
-#name {
-  color: #6b778c;
-  font-size: 15px;
-  line-height: 24px;
-  width: 295px;
-  height: 48px;
-  text-align: left;
-  border: 1px solid #d0d9d4;
-  border-radius: 4px;
-  padding: 10px;
-}
-
-#email {
-  color: #6b778c;
-  font-size: 15px;
-  line-height: 24px;
-  width: 295px;
-  height: 48px;
-  text-align: left;
-  border: 1px solid #d0d9d4;
-  border-radius: 4px;
-  padding: 10px;
-}
-
-#message {
-  font-weight: 900;
-  line-height: 24px;
-  width: 303px;
-  height: 114px;
-  text-align: left;
-  border: 1px solid #d0d9d4;
-  border-radius: 4px;
-  padding: 10px;
-}
-
-.inputs {
-  display: grid;
-  margin: auto;
-  width: 327px;
-  height: 330px;
-  text-align: center;
-}
-
-.submit {
-  height: 48px;
-  width: 129px;
-  border-radius: 4px;
-  background-color: #36b37f;
-  color: #fff;
+.contact-section {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  margin: auto;
-  border: 1px solid #36b37f;
-  justify-content: center;
+  position: relative;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  padding-bottom: 8px;
 }
 
-.b-form {
-  background-image: url("./images/illustration-contact-form.svg");
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+  margin: 44px 0;
 }
 
-#form-email a {
-  width: 375px;
+.contact-form label {
+  display: flex;
+  width: 100%;
+}
+
+.contact-form label input,
+.contact-form label textarea {
+  width: 100%;
+  padding: 0.9375rem 2.375rem 0.9375rem 1rem;
+  border-radius: 8px;
+  border: 1px solid #d0d9d4;
+  background: #fff;
+}
+
+.contact-form label input::placeholder {
+  font-size: 1.0625rem;
+  color: #6b778c;
+  line-height: 1.25rem;
   font-weight: 400;
-  line-height: 32px;
-  color: #42526e;
-  display: flex;
-  align-items: center;
-  margin: auto;
-  justify-content: center;
-  margin-top: 10px;
 }
 
-#form-media {
-  margin-top: 20px;
+.contact-form label textarea::placeholder {
+  font-size: 50px;
+  font-size: 1.0625rem;
+  line-height: 1.25rem;
+  color: #091e42;
+}
+
+.button {
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 12px;
+  color: #fff;
+  background: #36b37f;
+  border-radius: 4px;
+  letter-spacing: 3%;
+  border: 1px solid #36b37f;
+  cursor: pointer;
+}
+
+.button:enabled {
+  color: #fff;
+  background: #36b37f;
+}
+
+.button:hover {
+  color: #fff;
+  background: #36b37f;
+}
+
+.button:active {
+  color: #fff;
+  background: #008552;
+}
+
+.button:disabled {
+  color: #5e6c84;
+}
+
+.btn-container {
+  margin: 0 auto;
+}
+
+.contact-section .contact-bg {
+  background-image: url(./images/illustration-contact-form-bg.svg);
+  position: absolute;
+  width: 60px;
+  height: 132px;
+  background-repeat: no-repeat;
+  left: 311px;
+  top: 853px;
+}
+
+.mt-2 {
+  margin-top: 44px;
+}
+
+.example-mail {
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  font-weight: 400;
+  font-size: 20px;
+  color: #42526e;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
