@@ -38,6 +38,10 @@ ul {
   gap: 20px;
 }
 
+.navbar {
+  display: none;
+}
+
 .header a {
   color: #28352f;
 }
@@ -377,9 +381,9 @@ h4 {
   top: 853px;
 }
 
-.mt-2 {
+/* .mt-2 {
   margin-top: 44px;
-}
+} */
 
 .example-mail {
   text-align: center;
@@ -395,3 +399,82 @@ footer {
   flex-direction: column;
   align-items: center;
 }
+@media only screen and (min-width: 768px) {
+  .navbar {
+    display: block;
+    padding: 26px;
+    color: #344563;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .header {
+    display: none;
+  }
+
+  .landing-page {
+    background-image: url("./images/header-background.svg");
+    width: 100%;
+    text-align: center;
+  }
+
+  .proj-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px 32px;
+    margin-top: 52px;
+  }
+
+  .about-me {
+    max-width: 100%;
+    background-image: url("./images/illustration-about-me-desktop.png");
+    background-repeat: no-repeat;
+  }
+
+  .bg-img1,
+  .bg-img2 {
+    display: none;
+  }
+
+  #about-text p {
+    max-width: 920px;
+    padding-left: 10px;
+  }
+
+  .skills-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px 32px;
+    padding: 68px 0 0 0;
+  }
+
+  .contact-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 198px;
+  }
+
+  .btn-container {
+    display: none;
+  }
+
+  #btn {
+    display: block;
+    margin: 0;
+  }
+
+  .contact-section .contact-bg {
+    display: none;
+  }
+
+  footer {
+    background-image: url("./images/formdesktopright.svg.svg");
+    background-repeat: no-repeat;
+    position: relative;
+    top: 40px;
+  }
+
+  .example-mail {
+    display: none;
+  }
