@@ -467,6 +467,10 @@ footer {
     display: none;
   }
 
+  .header-text {
+    display: block;
+  }
+
   #about-text p {
     max-width: 920px;
     padding-left: 10px;
@@ -482,7 +486,7 @@ footer {
   .contact-section {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-bottom: 198px;
+    margin-bottom: 60px;
   }
 
   .btn-container {
@@ -506,7 +510,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 20%;
+    gap: 10%;
   }
 
   #middle-image {
