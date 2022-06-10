@@ -469,11 +469,49 @@ footer {
 
   .header-text {
     display: block;
+    height: 300px;
+  }
+
+  .header-style {
+    font-size: 50px;
+    line-height: 800;
+    position: relative;
+    animation: header-text;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+  }
+
+  .header-text {
+    transition-property: color;
+    transition-duration: 4s;
+  }
+
+  .header-text:hover {
+    color: #08f894;
+  }
+
+  @keyframes header-text {
+    0% { top: -50px; }
+    100% { top: 200px; }
   }
 
   #about-text p {
     max-width: 920px;
     padding-left: 10px;
+  }
+
+  .p-style {
+    max-width: 920px;
+    padding-left: 10px;
+    position: relative;
+    animation-name: p-style;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes p-style {
+    0% { left: -1000px; }
+    100% { left: 200px; }
   }
 
   .skills-list {
