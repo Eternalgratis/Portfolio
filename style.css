@@ -17,6 +17,10 @@ body {
   overflow-x: hidden;
 }
 
+h2 {
+  display: none;
+}
+
 .header {
   font-weight: 600;
   display: flex;
@@ -36,6 +40,10 @@ ul {
   display: flex;
   justify-content: center;
   gap: 20px;
+}
+
+.navbar {
+  display: none;
 }
 
 .header a {
@@ -73,6 +81,7 @@ a.arrow {
   height: 40px;
   padding: 14px 17px;
   margin-top: 40px;
+  display: none;
 }
 
 .header2 {
@@ -377,9 +386,9 @@ h4 {
   top: 853px;
 }
 
-.mt-2 {
+/* .mt-2 {
   margin-top: 44px;
-}
+} */
 
 .example-mail {
   text-align: center;
@@ -390,8 +399,121 @@ h4 {
   color: #42526e;
 }
 
+#empty-footer {
+  display: none;
+}
+
 footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .navbar {
+    display: block;
+    padding: 26px;
+    color: #344563;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  h2 {
+    display: none;
+  }
+
+  .header {
+    display: none;
+  }
+
+  a.arrow2 {
+    display: none;
+  }
+
+  a.arrow {
+    border: 1px solid #dfe1e6;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-top: 40px;
+    padding-bottom: 20px;
+    padding-right: 24px;
+    margin-left: 48%;
+    display: flex;
+  }
+
+  .landing-page {
+    background-image: url("./images/header-background.svg");
+    width: 100%;
+    text-align: center;
+  }
+
+  .proj-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px 32px;
+    margin-top: 52px;
+  }
+
+  .about-me {
+    max-width: 100%;
+    background-image: url("./images/illustration-about-me-desktop.png");
+    background-repeat: no-repeat;
+  }
+
+  .bg-img1,
+  .bg-img2 {
+    display: none;
+  }
+
+  .header-text {
+    display: block;
+  }
+
+  #about-text p {
+    max-width: 920px;
+    padding-left: 10px;
+  }
+
+  .skills-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px 32px;
+    padding: 68px 0 0 0;
+  }
+
+  .contact-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 60px;
+  }
+
+  .btn-container {
+    display: none;
+  }
+
+  #btn {
+    display: block;
+    margin: 0;
+  }
+
+  .contact-section .contact-bg {
+    display: none;
+  }
+
+  .example-mail {
+    display: none;
+  }
+
+  #empty-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10%;
+  }
+
+  #middle-image {
+    margin-left: -30em;
+  }
 }
