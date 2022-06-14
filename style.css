@@ -141,7 +141,7 @@ section {
   padding: 12px;
   font-size: 17px;
   font-weight: 500;
-  background-color: #36b37f;
+  background-color: #25815b;
   color: #fff;
   margin-top: -100px;
 }
@@ -271,7 +271,7 @@ ul.pro-tech {
 .skills-list li {
   border: none;
   border-radius: 8px;
-  color: #36b37e;
+  color: #25815a;
   background-color: #fff;
   padding: 12px;
   font-size: 12px;
@@ -349,7 +349,7 @@ h4 {
   background: #36b37f;
   border-radius: 4px;
   letter-spacing: 3%;
-  border: 1px solid #36b37f;
+  border: 1px solid #25815b;
   cursor: pointer;
 }
 
