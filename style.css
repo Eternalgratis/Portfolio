@@ -42,8 +42,68 @@ ul {
   gap: 20px;
 }
 
+.nav-menu {
+  /* display: flex; */
+  /* position: fixed; */
+  left: -100%;
+  top: 70px;
+  gap: 0;
+  width: 100%;
+  text-align: center;
+  flex-direction: column;
+  transition: 0.3s;
+}
+
 .navbar {
-  display: none;
+  display: block;
+  min-height: 70px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+}
+
+.nav-branding {
+  color: black;
+  font-size: 2rem;
+}
+
+.nav-link {
+  transition: 0.7s ease;
+}
+
+.nav-link:hover {
+  color: #36b37e;
+}
+
+.hamburger {
+  display: block;
+  cursor: pointer;
+  height: -20%;
+  margin-left: 80%;
+  color: #000;
+  margin-top: 30px;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #000;
+}
+
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
 }
 
 .header a {
@@ -410,22 +470,63 @@ footer {
 }
 
 @media only screen and (min-width: 768px) {
+  .hamburger {
+    display: none;
+  }
+
   .navbar {
-    display: block;
+    display: flex;
     padding: 26px;
-    color: #344563;
+    /* color: #344563; */
     font-weight: 600;
     font-size: 15px;
     line-height: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .nav-menu {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    background-color: #fff;
+    flex-direction: row;
+    margin-left: 70px;
+    padding: 0 20px;
+  }
+
+  /* .navbar {
+    display: block;
+    min-height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+    border: 1px solid black;
+  } */
+
+  .nav-item {
+    margin: 16px 0;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .nav-link {
+    display: flex;
+    flex-direction: row;
+    margin: 0 35px;
+  }
+
+  .nav-menu.active {
+    left: 0;
   }
 
   h2 {
     display: none;
   }
 
-  .header {
+  /* .header {
     display: none;
-  }
+  } */
 
   a.arrow2 {
     display: none;
