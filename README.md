@@ -4,7 +4,7 @@
 > This is a portfolio that shows my proficiency as I go through Microverse. It is a work-in-progress and I hope to make it a masterpiece.
 
 ## Live Demo
-[Link to the Live Demo] (https://eternalgratis.github.io/Portfolio/)
+[Link to Live Demo](https://eternalgratis.github.io/Portfolio/)
 
 
 ## Built With
