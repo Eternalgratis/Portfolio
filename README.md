@@ -3,6 +3,10 @@
 > This portfolio project demonstrates Javascript
 > This is a portfolio that shows my proficiency as I go through Microverse. It is a work-in-progress and I hope to make it a masterpiece.
 
+## Live Demo
+[Link to the Live Demo] (https://eternalgratis.github.io/Portfolio/)
+
+
 ## Built With
 
 - HTML
@@ -45,5 +49,6 @@ Clone the project by using terminal.
 https://github.com/Eternalgratis/Portfolio.git
 
 cd Portfolio
+
 
 This project is [MIT](./MIT.md) licensed.
