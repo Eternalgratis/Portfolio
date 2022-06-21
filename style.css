@@ -43,8 +43,8 @@ ul {
 }
 
 .nav-menu {
-  /* display: flex; */
-  /* position: fixed; */
+  display: flex;
+  position: fixed;
   left: -100%;
   top: 70px;
   gap: 0;
@@ -52,6 +52,10 @@ ul {
   text-align: center;
   flex-direction: column;
   transition: 0.3s;
+}
+
+.nav-menu.active {
+  left: 0px;
 }
 
 .navbar {
@@ -69,6 +73,8 @@ ul {
 
 .nav-link {
   transition: 0.7s ease;
+  color: #3a4a42;
+  font-weight: bold;
 }
 
 .nav-link:hover {
@@ -514,10 +520,6 @@ footer {
     display: flex;
     flex-direction: row;
     margin: 0 35px;
-  }
-
-  .nav-menu.active {
-    left: 0;
   }
 
   h2 {
