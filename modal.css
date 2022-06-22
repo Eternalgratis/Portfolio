@@ -1,13 +1,64 @@
 
 .Modal {
-  position: relative;
-  width: 100%;
-  top: 100px;
-  border: 1px solid #d0d9d4;
-  background-color: #fff;
+
 }
 
-.modal-div {
-  height: 300px;
-  background-color: #ebf0ee;
+@media only screen and (min-width: 768px) {
+  .Modal {
+    background-repeat: no-repeat;
+    margin: 40px;
+    padding: 20px;
+    border: 1px solid #fff;
+    background-color: #fff;
+  }
+
+  .modal-div {
+    background-image: url("/images/Snapshoot-portfolio.svg");
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 1000px;
+  }
+
+  h3 {
+    color: #172b4d;
+    margin-right: 80px;
+    display: flex;
+  }
+
+  .container {
+    display: flex;
+    margin: 10px 5px;
+  }
+
+  .modal-tech {
+    text-align: left;
+  }
+
+  button {
+    background-color: #36b37e;
+    border-radius: 5px;
+    border-style: none;
+    color: #fff;
+    margin: 5px;
+  }
+
+  .modal-tech {
+    justify-content: flex-start;
+    margin: 5px;
+    gap: 10px;
+  }
+
+  .modal-tech li {
+    border: 1px solid #ebf0ee;
+    border-radius: 5px;
+    background-color: #ebecf0;
+  }
+
+  p {
+    margin: 10px;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #344563;
+  }
 }

@@ -453,7 +453,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 24px 32px;
-    margin-top: 52px;
+    /* margin-top: 52px; */
   }
 
   .about-me {
