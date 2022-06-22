@@ -18,7 +18,13 @@
 - Twitter: [@eternalgratis](https://twitter.com/eternalgratis)
 - LinkedIn: [@eternalgratis](https://www.linkedin.com/in/titilope-apuabi-69a98719b/)
 
+### Collaborators
 
+👤 **Diego Luna Granados** *(Week 4: Mobile Menu & Popup window)*
+
+- GitHub: [@SlowKingV](https://github.com/SlowKingV)
+- Twitter: [@SlowKingVI](https://twitter.com/SlowKingVI)
+- LinkedIn: [Diego Luna Granados](https://www.linkedin.com/in/diego-luna-granados/)
  
 
 ## 🤝 Contributing
