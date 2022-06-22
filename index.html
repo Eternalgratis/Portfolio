@@ -6,24 +6,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./modal.css">
     <title>Eternalgratis</title>
 </head>
 
 <body>
-    <div class="navbar">
-        <ul>
-            <li>Portfolio</li>
-            <li>About</li>
-            <li>Contact</li>
-        </ul>
-    </div>
     <header>
-        <div class="header">
-            <a href="index.html">Welcome</a>
-            <img src="images/menu.png" alt="">
-        </div>
+        <!-- </div> -->
+
+        <!-- <div class="navbar" id="header-container"> -->
+        <nav class="navbar">
+            <a href="#" class="header nav-branding">Welcome</a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#portfolio" class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
     </header>
-    <section class="landing-page">
+
+    <section class="landing-page" id="portfolio">
         <div class="lp-container">
             <h1>Hey there. I'm Titilope. <br>
                 <span class="tint">I'm a software developer.</span>
@@ -52,7 +65,7 @@
             <div class="separator"></div>
         </div>
 
-        <div class="proj-container">
+        <!-- <div class="proj-container">
             <div class="Projects">
                 <div class="empty-div"></div>
                 <div class="Proj-text1">
@@ -148,10 +161,10 @@
                     <a class="pro-btn" href="#works-section">See Project</a>
                 </div>
             </div>
-        </div>
+        </div> -->
     </section>
 
-    <section class="about-me">
+    <section class="about-me" id="about">
         <div id="about-text">
             <div class="bg-img1"></div>
             <div class="header-style">
@@ -208,7 +221,7 @@
         </div>
     </section>
 
-    <section class="contact-section">
+    <section class="contact-section" id="contact">
         <h2 id="greeting">Hello</h2>
         <p>I'm always interested in hearing about new projects,
             so if you'd like to chat please get in touch.</p>
@@ -249,6 +262,39 @@
             <a href="#">tyaps002@gmail.com</a>
         </div>
     </footer>
+
+
+    <!-- <div class="Modal">
+        <div class="modal-div"><img src="./images/Snapshoot-portfolio.svg" alt=""></div>
+        <div class="modal-text1">
+            <h3>Keeping track of hundreds of
+                components</h3>
+            <ul class="modal-tech">
+                <li>Ruby on rails</li>
+                <li>css</li>
+                <li>JavaScript</li>
+                <li>html</li>
+            </ul>
+
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                printer took a galley of type and scrambled it 1960s with the relea</p>
+            <br>
+            <div>
+                <button type="submit" class="modal-btn">See Live
+                    <img src="./images/see-live.svg" alt="see live">
+                </button>
+                <button type="submit" class="modal-btn">See Source
+                    <img src="./images/github.svg" alt="see source">
+                </button>
+            </div>
+        </div>
+    </div> -->
+
+
+    <script src="./main.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,13 @@
+
+.Modal {
+  position: relative;
+  width: 100%;
+  top: 100px;
+  border: 1px solid #d0d9d4;
+  background-color: #fff;
+}
+
+.modal-div {
+  height: 300px;
+  background-color: #ebf0ee;
+}
