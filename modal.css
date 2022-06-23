@@ -1,6 +1,52 @@
+.modal-div {
+  background-image: url('./images/Snapshoot-portfolio1.svg');
+  width: 100%;
+  height: 220px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
-.Modal {
+.modal-text1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
 
+.container {
+  grid-column: 1 / 4;
+  grid-row: 1 ;
+}
+
+.modal-tech {
+  grid-column: 1 / 4;
+  grid-row: 2;
+}
+
+.modal-msg {
+  grid-column: 1 / 4;
+  grid-row: 3;
+}
+
+.modal-buttons {
+  grid-column: 1 / 4;
+  grid-row: 4;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.modal-btn img {
+  margin: 0 10px;
+}
+
+.modal-btn {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #36b37e;
+  border-radius: 5px;
+  border-style: none;
+  color: #fff;
+  margin: 5px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -17,6 +63,7 @@
     background-repeat: no-repeat;
     height: 600px;
     width: 1000px;
+    background-position: left;
   }
 
   h3 {
@@ -28,24 +75,18 @@
   .container {
     display: flex;
     margin: 10px 5px;
+    grid-column: 1 / 3;
   }
 
   .modal-tech {
     text-align: left;
   }
 
-  button {
-    background-color: #36b37e;
-    border-radius: 5px;
-    border-style: none;
-    color: #fff;
-    margin: 5px;
-  }
-
   .modal-tech {
     justify-content: flex-start;
     margin: 5px;
     gap: 10px;
+    grid-column: 1 / 3;
   }
 
   .modal-tech li {
@@ -60,5 +101,11 @@
     line-height: 30px;
     font-weight: 400;
     color: #344563;
+  }
+
+  .modal-buttons {
+    grid-column: 3 / 4;
+    grid-row: 1 / 3;
+    justify-content: flex-start;
   }
 }
