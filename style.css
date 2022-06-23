@@ -392,7 +392,7 @@ h4 {
 
 .example-mail {
   text-align: center;
-  margin: 0 auto;
+  margin-bottom: 15px;
   display: flex;
   font-weight: 400;
   font-size: 20px;
@@ -453,7 +453,12 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 24px 32px;
-    /* margin-top: 52px; */
+  }
+
+  .Proj-text1 h3 {
+    justify-content: center;
+    text-align: center;
+    width: 100%;
   }
 
   .about-me {
