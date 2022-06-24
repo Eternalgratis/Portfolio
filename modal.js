@@ -6,10 +6,12 @@ hamburger.addEventListener('click', () => {
   navMenu.classList.toggle('active');
 });
 
-document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click', () => {
-  hamburger.classList.remove('active');
-  navMenu.classList.remove('active');
-}));
+document.querySelectorAll('.nav-link').forEach((n) => {
+  n.addEventListener('click', () => {
+    hamburger.classList.remove('active');
+    navMenu.classList.remove('active');
+  });
+});
 
 // pop-up menu
 
@@ -88,19 +90,19 @@ function showProj() {
   for (let projIndex = 0; projIndex < proj.length; projIndex += 1) {
     const worksection = `
   
-    <div class="Projects">
-                <div class="empty-div"></div>
-                <div class="Proj-text1">
+    <div class='Projects'>
+                <div class='empty-div'></div>
+                <div class='Proj-text1'>
                     <h3>${proj[projIndex].projectTitle}</h3>
                     <h3>${proj[projIndex].projectSubtitle}</h3>
-                    <ul class="pro-tech">
+                    <ul class='pro-tech'>
                         <li>${proj[projIndex].skills[0]}</li>
                         <li>${proj[projIndex].skills[1]}</li>
                         <li>${proj[projIndex].skills[2]}</li>
                         <li>${proj[projIndex].skills[3]}</li>
                     </ul>
                     <br>
-                    <a class="pro-btn" href="#works-section">See Project</a>
+                    <a class='pro-btn' href='#works-section'>See Project</a>
                 </div>
             </div>
 
@@ -135,4 +137,16 @@ seeProjectBtns.forEach((probtn) => {
 const closeContainer = document.querySelector('.close-container');
 closeContainer.addEventListener('click', () => {
   modal.classList.remove('active');
+});
+
+// Form Validation
+const form = document.querySelector('.contact-form');
+const formEmail = form.elements.email;
+const formErrorMessage = document.querySelector('.error-message');
+
+form.addEventListener('submit', (event) => {
+  if (formEmail.value.match(/[A-Z]/)) {
+    event.preventDefault();
+    formErrorMessage.classList.remove('hide');
+  }
 });
