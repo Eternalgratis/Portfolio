@@ -1,10 +1,11 @@
-## Porfolio-mobile
+## Porfolio-mobile: Milestone 5
 
+> This portfolio project demonstrates Javascript
 > This is a portfolio that shows my proficiency as I go through Microverse. It is a work-in-progress and I hope to make it a masterpiece.
 
 ## Live Demo
+[Link to Live Demo](https://eternalgratis.github.io/Portfolio/)
 
-[Link to the Live Demo] (https://eternalgratis.github.io/Portfolio/)
 
 ## Built With
 
@@ -22,11 +23,20 @@
 
 ### Collaborators
 
-👤 **Diego Luna Granados** \*(Week 4: Mobile Menu & Popup window)
+
+👤 **Diego Luna Granados** *(Week 4: Mobile Menu & Popup window)*
 
 - GitHub: [@SlowKingV](https://github.com/SlowKingV)
 - Twitter: [@SlowKingVI](https://twitter.com/SlowKingVI)
 - LinkedIn: [Diego Luna Granados](https://www.linkedin.com/in/diego-luna-granados/)
+
+
+👤 **Diego Luna Granados** *(Week 4: Mobile version nav button)*
+
+- GitHub: [@SlowKingV](https://github.com/SlowKingV)
+- Twitter: [@SlowKingVI](https://twitter.com/SlowKingVI)
+- LinkedIn: [Diego Luna Granados](https://www.linkedin.com/in/diego-luna-granados/)
+
 
 ## 🤝 Contributing
 
