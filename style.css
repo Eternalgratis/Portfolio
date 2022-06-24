@@ -404,6 +404,14 @@ h4 {
   background: #fff;
 }
 
+.error-message {
+  
+}
+
+.hide {
+  display: none;
+}
+
 .contact-form label input::placeholder {
   font-size: 1.0625rem;
   color: #6b778c;
