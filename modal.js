@@ -1,82 +1,80 @@
-const hamburger = document.querySelector(".hamburger");
-const navMenu = document.querySelector(".nav-menu");
+const hamburger = document.querySelector('.hamburger');
+const navMenu = document.querySelector('.nav-menu');
 
-hamburger.addEventListener("click", () => {
-  hamburger.classList.toggle("active");
-  navMenu.classList.toggle("active");
+hamburger.addEventListener('click', () => {
+  hamburger.classList.toggle('active');
+  navMenu.classList.toggle('active');
 });
 
-document.querySelectorAll(".nav-link").forEach((n) =>
-  n.addEventListener("click", () => {
-    hamburger.classList.remove("active");
-    navMenu.classList.remove("active");
-  })
-);
+document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click', () => {
+  hamburger.classList.remove('active');
+  navMenu.classList.remove('active');
+}));
 
 // pop-up menu
 
 const proj = [
   {
-    projectTitle: "Multi-Post Stories",
+    projectTitle: 'Multi-Post Stories',
 
-    projectSubtitle: "Gain+Glory",
+    projectSubtitle: 'Gain+Glory',
 
-    skills: ["Ruby on rails", "CSS", "JavaScript", "HTML"],
-
-    // liveUrl:
-    // sourceUrl:
-  },
-
-  {
-    projectTitle: "Multi-Post Stories",
-
-    projectSubtitle: "Gain+Glory",
-
-    skills: ["Ruby on rails", "CSS", "JavaScript", "HTML"],
+    skills: ['Ruby on rails', 'CSS', 'JavaScript', 'HTML'],
 
     // liveUrl:
     // sourceUrl:
   },
 
   {
-    projectTitle: "Multi-Post Stories",
+    projectTitle: 'Multi-Post Stories',
 
-    projectSubtitle: "Gain+Glory",
+    projectSubtitle: 'Gain+Glory',
 
-    skills: ["Ruby on rails", "CSS", "JavaScript", "HTML"],
-
-    // liveUrl:
-    // sourceUrl:
-  },
-
-  {
-    projectTitle: "Multi-Post Stories",
-
-    projectSubtitle: "Gain+Glory",
-
-    skills: ["Ruby on rails", "CSS", "JavaScript", "HTML"],
+    skills: ['Ruby on rails', 'CSS', 'JavaScript', 'HTML'],
 
     // liveUrl:
     // sourceUrl:
   },
 
   {
-    projectTitle: "Multi-Post Stories",
+    projectTitle: 'Multi-Post Stories',
 
-    projectSubtitle: "Gain+Glory",
+    projectSubtitle: 'Gain+Glory',
 
-    skills: ["Ruby on rails", "CSS", "JavaScript", "HTML"],
+    skills: ['Ruby on rails', 'CSS', 'JavaScript', 'HTML'],
 
     // liveUrl:
     // sourceUrl:
   },
 
   {
-    projectTitle: "Multi-Post Stories",
+    projectTitle: 'Multi-Post Stories',
 
-    projectSubtitle: "Gain+Glory",
+    projectSubtitle: 'Gain+Glory',
 
-    skills: ["Ruby on rails", "CSS", "JavaScript", "HTML"],
+    skills: ['Ruby on rails', 'CSS', 'JavaScript', 'HTML'],
+
+    // liveUrl:
+    // sourceUrl:
+  },
+
+  {
+    projectTitle: 'Multi-Post Stories',
+
+    projectSubtitle: 'Gain+Glory',
+
+    skills: ['Ruby on rails', 'CSS', 'JavaScript', 'HTML'],
+
+    // liveUrl:
+    // sourceUrl:
+  },
+
+  {
+    projectTitle: 'Multi-Post Stories',
+
+    projectSubtitle: 'Gain+Glory',
+
+    skills: ['Ruby on rails', 'CSS', 'JavaScript', 'HTML'],
 
     // liveUrl:
     // sourceUrl:
@@ -86,7 +84,7 @@ const proj = [
 // Adding projects section
 
 function showProj() {
-  let projCard = "";
+  let projCard = '';
   for (let projIndex = 0; projIndex < proj.length; projIndex += 1) {
     const worksection = `
   
@@ -119,22 +117,22 @@ function showProj() {
 
 const projHTML = showProj();
 
-const worksSection = document.getElementById("works-section");
-worksSection.insertAdjacentHTML("beforeend", projHTML);
-const modal = document.querySelector(".Modal");
+const worksSection = document.getElementById('works-section');
+worksSection.insertAdjacentHTML('beforeend', projHTML);
+const modal = document.querySelector('.Modal');
 
 // Modal popup
 const showModal = () => {
-  modal.classList.add("active");
+  modal.classList.add('active');
 };
 
-const seeProjectBtns = document.querySelectorAll(".pro-btn");
+const seeProjectBtns = document.querySelectorAll('.pro-btn');
 
 seeProjectBtns.forEach((probtn) => {
-  probtn.addEventListener("click", showModal);
+  probtn.addEventListener('click', showModal);
 });
 
-const closeContainer = document.querySelector(".close-container");
-closeContainer.addEventListener("click", () => {
-  modal.classList.remove("active");
+const closeContainer = document.querySelector('.close-container');
+closeContainer.addEventListener('click', () => {
+  modal.classList.remove('active');
 });
