@@ -23,6 +23,7 @@
   overflow-y: scroll;
   box-sizing: border-box;
   background-color: #89929565;
+  z-index: 5;
 }
 
 .Modal.active {
@@ -117,6 +118,8 @@
   .Modal {
     background-repeat: no-repeat;
     border: 1px solid #fff;
+    padding: 100px;
+    z-index: 10;
   }
 
   .modal-div {
@@ -147,7 +150,6 @@
   }
 
   p {
-    /* margin: 10px; */
     font-size: 16px;
     line-height: 30px;
     font-weight: 400;

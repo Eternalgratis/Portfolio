@@ -98,7 +98,7 @@ ul {
   margin-left: 80%;
   color: #000;
   margin-top: -40px;
-  z-index: 999;
+  z-index: 5;
   position: fixed;
 }
 
