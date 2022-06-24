@@ -1,0 +1,164 @@
+.modal-div {
+  background-image: url('./images/Snapshoot-portfolio1.svg');
+  width: 100%;
+  height: 220px;
+  padding: 0;
+  background-size: cover;
+  text-align: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #dfe1e6;
+}
+
+.Modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  display: none;
+  padding: 40px;
+  backdrop-filter: blur(15px);
+  overflow-y: scroll;
+  box-sizing: border-box;
+  background-color: #89929565;
+  z-index: 5;
+}
+
+.Modal.active {
+  display: block;
+}
+
+.close-icon {
+  color: black;
+}
+
+.modal-wrapper {
+  background-color: #fff;
+  padding: 20px;
+  text-align: left;
+}
+
+.close-container {
+  text-align: right;
+}
+
+.modal-text1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.contact-section .contact-bg {
+  display: none;
+}
+
+.container {
+  grid-column: 1 / 4;
+  margin: 20px 0;
+}
+
+.modal-tech {
+  grid-column: 1 / 4;
+  grid-row: 2;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.modal-tech li {
+  border: 1px solid #ebf0ee;
+  border-radius: 5px;
+  background-color: #ebecf0;
+}
+
+.modal-msg {
+  grid-column: 1 / 4;
+  grid-row: 3;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.modal-text1 h3 {
+  color: #172b4d;
+  display: flex;
+}
+
+.modal-buttons {
+  grid-column: 1 / 4;
+  grid-row: 4;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.modal-btn img {
+  margin: 0 10px;
+}
+
+.modal-btn {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #36b37e;
+  border-radius: 5px;
+  border-style: none;
+  color: #fff;
+  margin: 5px;
+}
+
+@media only screen and (min-width: 768px) {
+  .Modal {
+    background-repeat: no-repeat;
+    border: 1px solid #fff;
+    padding: 100px;
+    z-index: 10;
+  }
+
+  .modal-div {
+    background-image: url("/images/Snapshoot-portfolio.svg");
+    background-repeat: no-repeat;
+    height: 600px;
+    background-position: left;
+  }
+
+  h3 {
+    color: #172b4d;
+    margin-right: 80px;
+    display: flex;
+  }
+
+  .container {
+    display: flex;
+    margin: 10px 5px;
+    grid-column: 1 / 3;
+  }
+
+  .modal-tech {
+    justify-content: flex-start;
+    text-align: left;
+    margin: 5px;
+    gap: 10px;
+    grid-column: 1 / 3;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #344563;
+  }
+
+  .modal-buttons {
+    grid-column: 3 / 4;
+    grid-row: 1 / 3;
+    justify-content: flex-start;
+  }
+}

@@ -98,7 +98,7 @@ ul {
   margin-left: 80%;
   color: #000;
   margin-top: -40px;
-  z-index: 999;
+  z-index: 5;
   position: fixed;
 }
 
@@ -467,7 +467,7 @@ h4 {
 
 .example-mail {
   text-align: center;
-  margin: 0 auto;
+  margin-bottom: 15px;
   display: flex;
   font-weight: 400;
   font-size: 20px;
@@ -553,11 +553,17 @@ footer {
     text-align: center;
   }
 
-  .proj-container {
+  #works-section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 24px 32px;
-    margin-top: 52px;
+    padding-top: 0;
+  }
+
+  .Proj-text1 h3 {
+    justify-content: center;
+    text-align: center;
+    width: 100%;
   }
 
   .about-me {
@@ -580,11 +586,19 @@ footer {
     animation-fill-mode: forwards;
   }
 
+  .empty-div {
+    height: 252px;
+  }
+
   .header-text {
     display: block;
-    height: 300px;
     transition-property: color;
     transition-duration: 4s;
+    margin-right: 0;
+  }
+
+  .separator {
+    display: none;
   }
 
   .header-text:hover {

@@ -23,11 +23,20 @@
 
 ### Collaborators
 
+
+👤 **Diego Luna Granados** *(Week 4: Mobile Menu & Popup window)*
+
+- GitHub: [@SlowKingV](https://github.com/SlowKingV)
+- Twitter: [@SlowKingVI](https://twitter.com/SlowKingVI)
+- LinkedIn: [Diego Luna Granados](https://www.linkedin.com/in/diego-luna-granados/)
+
+
 👤 **Diego Luna Granados** *(Week 4: Mobile version nav button)*
 
 - GitHub: [@SlowKingV](https://github.com/SlowKingV)
 - Twitter: [@SlowKingVI](https://twitter.com/SlowKingVI)
 - LinkedIn: [Diego Luna Granados](https://www.linkedin.com/in/diego-luna-granados/)
+
 
 ## 🤝 Contributing
 
@@ -49,6 +58,5 @@ Clone the project by using terminal.
 https://github.com/Eternalgratis/Portfolio.git
 
 cd Portfolio
-
 
 This project is [MIT](./MIT.md) licensed.
