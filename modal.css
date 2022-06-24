@@ -17,12 +17,16 @@
   left: 0;
   height: 100vh;
   width: 100%;
-  display: block;
+  display: none;
   padding: 40px;
   backdrop-filter: blur(15px);
   overflow-y: scroll;
   box-sizing: border-box;
   background-color: #89929565;
+}
+
+.Modal.active {
+  display: block;
 }
 
 .close-icon {
@@ -69,7 +73,6 @@
   background-color: #ebecf0;
 }
 
-
 .modal-msg {
   grid-column: 1 / 4;
   grid-row: 3;
@@ -83,7 +86,6 @@
 
 .modal-text1 h3 {
   color: #172b4d;
-  /* margin-right: 80px; */
   display: flex;
 }
 

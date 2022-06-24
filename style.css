@@ -449,10 +449,11 @@ footer {
     text-align: center;
   }
 
-  .proj-container {
+  #works-section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 24px 32px;
+    padding-top: 0;
   }
 
   .Proj-text1 h3 {
@@ -481,11 +482,19 @@ footer {
     animation-fill-mode: forwards;
   }
 
+  .empty-div {
+    height: 252px;
+  }
+
   .header-text {
     display: block;
-    height: 300px;
     transition-property: color;
     transition-duration: 4s;
+    margin-right: 0;
+  }
+
+  .separator {
+    display: none;
   }
 
   .header-text:hover {

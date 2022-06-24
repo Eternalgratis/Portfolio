@@ -11,82 +11,63 @@ document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click'
   navMenu.classList.remove('active');
 }));
 
-
 // pop-up menu
-const projContainer = document.querySelector('.proj-container');
-
-
-console.log(projContainer);
 
 const proj = [
-
   {
+    projectTitle: 'Multi-Post Stories',
 
-    projectTitle: "Multi-Post Stories",
+    projectSubtitle: 'Gain+Glory',
 
-    projectSubtitle: "Gain+Glory",
-
-    skills: ["Ruby on rails", "CSS", "JavaScript", "HTML"]
-
-
+    skills: ['Ruby on rails', 'CSS', 'JavaScript', 'HTML'],
   },
 
   {
-    projectTitle: "Multi-Post Stories",
+    projectTitle: 'Multi-Post Stories',
 
-    projectSubtitle: "Gain+Glory",
+    projectSubtitle: 'Gain+Glory',
 
-    skills: ["Ruby on rails", "CSS", "JavaScript", "HTML"]
+    skills: ['Ruby on rails', 'CSS', 'JavaScript', 'HTML'],
   },
 
-
   {
-    projectTitle: "Multi-Post Stories",
+    projectTitle: 'Multi-Post Stories',
 
-    projectSubtitle: "Gain+Glory",
+    projectSubtitle: 'Gain+Glory',
 
-    skills: ["Ruby on rails", "CSS", "JavaScript", "HTML"]
+    skills: ['Ruby on rails', 'CSS', 'JavaScript', 'HTML'],
   },
 
-
   {
-    projectTitle: "Multi-Post Stories",
+    projectTitle: 'Multi-Post Stories',
 
-    projectSubtitle: "Gain+Glory",
+    projectSubtitle: 'Gain+Glory',
 
-    skills: ["Ruby on rails", "CSS", "JavaScript", "HTML"]
-
+    skills: ['Ruby on rails', 'CSS', 'JavaScript', 'HTML'],
   },
 
-
   {
-    projectTitle: "Multi-Post Stories",
+    projectTitle: 'Multi-Post Stories',
 
-    projectSubtitle: "Gain+Glory",
+    projectSubtitle: 'Gain+Glory',
 
-    skills: ["Ruby on rails", "CSS", "JavaScript", "HTML"]
-
+    skills: ['Ruby on rails', 'CSS', 'JavaScript', 'HTML'],
   },
 
-
   {
-    
-    projectTitle: "Multi-Post Stories",
+    projectTitle: 'Multi-Post Stories',
 
-    projectSubtitle: "Gain+Glory",
+    projectSubtitle: 'Gain+Glory',
 
-    skills: ["Ruby on rails", "CSS", "JavaScript", "HTML"]
-
+    skills: ['Ruby on rails', 'CSS', 'JavaScript', 'HTML'],
   },
 ];
 
-//Adding projects section
+// Adding projects section
 
-  function showProj()
-{
+function showProj() {
   let projCard = '';
-  for (let projIndex = 0; projIndex < proj.length; projIndex++){
-
+  for (let projIndex = 0; projIndex < proj.length; projIndex += 1) {
     const worksection = `
   
     <div class="Projects">
@@ -110,13 +91,30 @@ const proj = [
   
   `;
 
-      projCard = projCard.concat(worksection);
+    projCard = projCard.concat(worksection);
   }
-  
+
   return projCard;
 }
 
-let projHTML = showProj();
+const projHTML = showProj();
 
 const worksSection = document.getElementById('works-section');
 worksSection.insertAdjacentHTML('beforeend', projHTML);
+const modal = document.querySelector('.Modal');
+
+// Modal popup
+const showModal = () => {
+  modal.classList.add('active');
+};
+
+const seeProjectBtns = document.querySelectorAll('.pro-btn');
+
+seeProjectBtns.forEach((probtn) => {
+  probtn.addEventListener('click', showModal);
+});
+
+const closeContainer = document.querySelector('.close-container');
+closeContainer.addEventListener('click', () => {
+  modal.classList.remove('active');
+});
