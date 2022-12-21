@@ -594,6 +594,10 @@ footer {
     height: 252px;
   }
 
+  .portfolio1 {
+    height: 250px;
+  }
+
   .header-text {
     display: block;
     transition-property: color;

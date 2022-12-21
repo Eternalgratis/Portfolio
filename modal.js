@@ -19,9 +19,13 @@ const proj = [
   {
     projectTitle: 'Multi-Post Stories',
 
+    projectImage1: 'images/Math-Magician.png',
+
     projectSubtitle: 'Gain+Glory',
 
-    skills: ['Ruby on rails', 'CSS', 'JavaScript', 'HTML'],
+    skills: ['JavaScript', 'React', 'Webpack', 'Jsx', 'Css'],
+
+    projectDetails: 'https://github.com/Eternalgratis/Math-magician',
 
     // liveUrl:
     // sourceUrl:
@@ -91,9 +95,11 @@ function showProj() {
     const worksection = `
   
     <div class='Projects'>
-                <div class='empty-div'></div>
+                <div class='empty-div'>
+                </div>
                 <div class='Proj-text1'>
                     <h3>${proj[projIndex].projectTitle}</h3>
+                    <img src='${proj[projIndex].projectImage1}' alt='project image' class="portfolio1">
                     <h3>${proj[projIndex].projectSubtitle}</h3>
                     <ul class='pro-tech'>
                         <li>${proj[projIndex].skills[0]}</li>
