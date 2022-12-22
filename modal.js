@@ -19,7 +19,7 @@ const proj = [
   {
     projectTitle: 'Multi-Post Stories',
 
-    projectImage1: 'images/Math-Magician.png',
+    projectImage: 'images/Math-Magician.png',
 
     projectSubtitle: 'Gain+Glory',
 
@@ -34,7 +34,7 @@ const proj = [
   {
     projectTitle: 'Multi-Post Stories',
 
-    projectImage2: 'images/bookstore.png',
+    projectImage: 'images/bookstore.png',
 
     projectSubtitle: 'Gain+Glory',
 
@@ -47,7 +47,7 @@ const proj = [
   {
     projectTitle: 'Multi-Post Stories',
 
-    projectImage3: 'images/leaderboard.png',
+    projectImage: 'images/leaderboard.png',
 
     projectSubtitle: 'Gain+Glory',
 
@@ -60,7 +60,7 @@ const proj = [
   {
     projectTitle: 'Multi-Post Stories',
 
-    projectImage4: 'images/spaceTravelers.png',
+    projectImage: 'images/spaceTravelers.png',
 
     projectSubtitle: 'Gain+Glory',
 
@@ -73,7 +73,7 @@ const proj = [
   {
     projectTitle: 'Multi-Post Stories',
 
-    projectImage5: 'images/car-cruise.png',
+    projectImage: 'images/car-cruise.png',
 
     projectSubtitle: 'Gain+Glory',
 
@@ -86,7 +86,7 @@ const proj = [
   {
     projectTitle: 'Multi-Post Stories',
 
-    projectImage6: 'images/awesomebooks.png',
+    projectImage: 'images/awesomebooks.png',
 
     projectSubtitle: 'Gain+Glory',
 
@@ -106,15 +106,10 @@ function showProj() {
   
     <div class='Projects'>
                 <div class='empty-div'>
+                <img src='${proj[projIndex].projectImage}' alt='project image' class='portfolio1'>
                 </div>
                 <div class='Proj-text1'>
                     <h3>${proj[projIndex].projectTitle}</h3>
-                    <img src='${proj[projIndex].projectImage1}' alt='project image' class='portfolio1'>
-                    <img src='${proj[projIndex].projectImage2}' alt='project image' class='portfolio2'>
-                    <img src='${proj[projIndex].projectImage3}' alt='project image' class='portfolio3'>
-                    <img src='${proj[projIndex].projectImage4}' alt='project image' class='portfolio4'>
-                    <img src='${proj[projIndex].projectImage5}' alt='project image' class='portfolio5'>
-                    <img src='${proj[projIndex].projectImage6}' alt='project image' class='portfolio6'>
                     <h3>${proj[projIndex].projectSubtitle}</h3>
                     <ul class='pro-tech'>
                         <li>${proj[projIndex].skills[0]}</li>
