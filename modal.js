@@ -86,6 +86,8 @@ const proj = [
   {
     projectTitle: 'Multi-Post Stories',
 
+    projectImage6: 'images/awesomebooks.png',
+
     projectSubtitle: 'Gain+Glory',
 
     skills: ['Ruby on rails', 'CSS', 'JavaScript', 'HTML'],
@@ -112,6 +114,7 @@ function showProj() {
                     <img src='${proj[projIndex].projectImage3}' alt='project image' class='portfolio3'>
                     <img src='${proj[projIndex].projectImage4}' alt='project image' class='portfolio4'>
                     <img src='${proj[projIndex].projectImage5}' alt='project image' class='portfolio5'>
+                    <img src='${proj[projIndex].projectImage6}' alt='project image' class='portfolio6'>
                     <h3>${proj[projIndex].projectSubtitle}</h3>
                     <ul class='pro-tech'>
                         <li>${proj[projIndex].skills[0]}</li>
