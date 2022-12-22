@@ -34,16 +34,7 @@ const proj = [
   {
     projectTitle: 'Multi-Post Stories',
 
-    projectSubtitle: 'Gain+Glory',
-
-    skills: ['Ruby on rails', 'CSS', 'JavaScript', 'HTML'],
-
-    // liveUrl:
-    // sourceUrl:
-  },
-
-  {
-    projectTitle: 'Multi-Post Stories',
+    projectImage2: 'images/bookstore.png',
 
     projectSubtitle: 'Gain+Glory',
 
@@ -56,6 +47,8 @@ const proj = [
   {
     projectTitle: 'Multi-Post Stories',
 
+    projectImage3: 'images/leaderboard.png',
+
     projectSubtitle: 'Gain+Glory',
 
     skills: ['Ruby on rails', 'CSS', 'JavaScript', 'HTML'],
@@ -66,6 +59,21 @@ const proj = [
 
   {
     projectTitle: 'Multi-Post Stories',
+
+    projectImage4: 'images/spaceTravelers.png',
+
+    projectSubtitle: 'Gain+Glory',
+
+    skills: ['Ruby on rails', 'CSS', 'JavaScript', 'HTML'],
+
+    // liveUrl:
+    // sourceUrl:
+  },
+
+  {
+    projectTitle: 'Multi-Post Stories',
+
+    projectImage5: 'images/car-cruise.png',
 
     projectSubtitle: 'Gain+Glory',
 
@@ -99,7 +107,11 @@ function showProj() {
                 </div>
                 <div class='Proj-text1'>
                     <h3>${proj[projIndex].projectTitle}</h3>
-                    <img src='${proj[projIndex].projectImage1}' alt='project image' class="portfolio1">
+                    <img src='${proj[projIndex].projectImage1}' alt='project image' class='portfolio1'>
+                    <img src='${proj[projIndex].projectImage2}' alt='project image' class='portfolio2'>
+                    <img src='${proj[projIndex].projectImage3}' alt='project image' class='portfolio3'>
+                    <img src='${proj[projIndex].projectImage4}' alt='project image' class='portfolio4'>
+                    <img src='${proj[projIndex].projectImage5}' alt='project image' class='portfolio5'>
                     <h3>${proj[projIndex].projectSubtitle}</h3>
                     <ul class='pro-tech'>
                         <li>${proj[projIndex].skills[0]}</li>

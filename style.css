@@ -594,8 +594,9 @@ footer {
     height: 252px;
   }
 
-  .portfolio1 {
-    height: 250px;
+  .portfolio1, .portfolio2, .portfolio3, .portfolio4, .portfolio5, .portfolio6 {
+    height: 216px;
+    width: 416px;
   }
 
   .header-text {
