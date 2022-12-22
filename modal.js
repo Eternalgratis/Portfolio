@@ -23,9 +23,9 @@ const proj = [
 
     projectSubtitle: 'Gain+Glory',
 
-    skills: ['JavaScript', 'React', 'Webpack', 'Jsx', 'Css'],
+    skills: [ 'JavaScript', 'HTML', 'Css' ],
 
-    projectDetails: 'https://github.com/Eternalgratis/Math-magician',
+    href: 'https://github.com/Eternalgratis/Math-magician',
 
     // liveUrl:
     // sourceUrl:
@@ -38,7 +38,9 @@ const proj = [
 
     projectSubtitle: 'Gain+Glory',
 
-    skills: ['Ruby on rails', 'CSS', 'JavaScript', 'HTML'],
+    skills: [ 'JavaScript', 'CSS', 'HTML' ],
+
+    href: 'https://github.com/Eternalgratis/Bookstore',
 
     // liveUrl:
     // sourceUrl:
@@ -51,7 +53,9 @@ const proj = [
 
     projectSubtitle: 'Gain+Glory',
 
-    skills: ['Ruby on rails', 'CSS', 'JavaScript', 'HTML'],
+    skills: [ 'HTML', 'CSS', 'JavaScript' ],
+
+    href:'https://github.com/Eternalgratis/Leaderboard',
 
     // liveUrl:
     // sourceUrl:
@@ -64,7 +68,9 @@ const proj = [
 
     projectSubtitle: 'Gain+Glory',
 
-    skills: ['Ruby on rails', 'CSS', 'JavaScript', 'HTML'],
+    skills: [ 'React', 'CSS', 'HTML' ],
+
+    href: 'https://github.com/Eternalgratis/Space-Travelers',
 
     // liveUrl:
     // sourceUrl:
@@ -77,7 +83,9 @@ const proj = [
 
     projectSubtitle: 'Gain+Glory',
 
-    skills: ['Ruby on rails', 'CSS', 'JavaScript', 'HTML'],
+    skills: [ 'Ruby on rails', 'CSS', 'Jsx', 'React' ],
+
+    href: 'https://github.com/Eternalgratis/car_cruise_rental',
 
     // liveUrl:
     // sourceUrl:
@@ -90,7 +98,9 @@ const proj = [
 
     projectSubtitle: 'Gain+Glory',
 
-    skills: ['Ruby on rails', 'CSS', 'JavaScript', 'HTML'],
+    skills: [ 'JavaScript', 'CSS', 'HTML' ],
+
+    href: 'https://github.com/Eternalgratis/AwesomebooksES6',
 
     // liveUrl:
     // sourceUrl:
@@ -106,7 +116,7 @@ function showProj() {
   
     <div class='Projects'>
                 <div class='empty-div'>
-                <img src='${proj[projIndex].projectImage}' alt='project image' class='portfolio1'>
+                <img src='${proj[projIndex].projectImage}' alt='project image' class='portfolio'>
                 </div>
                 <div class='Proj-text1'>
                     <h3>${proj[projIndex].projectTitle}</h3>
@@ -118,7 +128,7 @@ function showProj() {
                         <li>${proj[projIndex].skills[3]}</li>
                     </ul>
                     <br>
-                    <a class='pro-btn' href='#works-section'>See Project</a>
+                    <a class='pro-btn' href='${proj[projIndex].href}'>See Project</a>
                 </div>
             </div>
 
