@@ -497,6 +497,10 @@ footer {
     display: none;
   }
 
+  #contact {
+    width: 100%;
+  }
+
   .navbar {
     display: flex;
     padding: 26px;
